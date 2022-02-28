@@ -21,6 +21,7 @@ const unLike = async () => {
 
     }
 
+    window.scrollTo(0,document.body.scrollHeight);
     await delay(5000);
 
     var threeDotsElements = getAllElements();
